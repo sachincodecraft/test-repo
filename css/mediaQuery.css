@@ -1,0 +1,23 @@
+/* 
+768px < width = mobile = red
+
+768 - 1024 => Tablet = green
+
+width >1024px => Desktop = blue
+
+*/
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .header {
+        color: red;
+    }
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        color: green;
+    }
+}

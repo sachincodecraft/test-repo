@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    /* background-color: rgb(240, 234, 234); */
+}
+
+.header {
+    font-family: Comfortaa;
+    
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #01c0b6;
+}
+
+.image {
+    width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
